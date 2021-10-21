@@ -1,0 +1,17 @@
+package com.abhishek.springdata.hibernate.inheritance.HibernateInheritance.entities;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Check extends Payment {
+
+    private String checknumber;
+
+    public String getChecknumber() {
+        return checknumber;
+    }
+
+    public void setChecknumber(String checknumber) {
+        this.checknumber = checknumber;
+    }
+}
